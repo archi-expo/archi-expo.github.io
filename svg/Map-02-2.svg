@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1191 604" style="enable-background:new 0 0 1191 604;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.6;}
+	.st1{fill:#D00000;stroke:#E70000;stroke-width:0.5;stroke-miterlimit:10;}
+</style>
+<g id="Map_2">
+	<g id="Foundation_Line">
+	</g>
+	<g id="Dashed_Line">
+	</g>
+	<g id="Platform_Detail">
+	</g>
+	<g id="Plants">
+	</g>
+	<g id="People" class="st0">
+	</g>
+	<g id="Masters1_x5F_Urban">
+		<g id="Layer_14">
+		</g>
+	</g>
+	<g id="Masters1_x5F_Design">
+	</g>
+	<g id="Masters1_x5F_Structures">
+	</g>
+	<g id="Masters1_x5F_Conservation">
+	</g>
+	<g id="Masters2_x5F_Urban">
+	</g>
+	<g id="Masters2_x5F_Design">
+	</g>
+	<g id="Masters2_x5F_Structures">
+	</g>
+	<g id="Masters2_x5F_Conservation">
+	</g>
+</g>
+<g id="Map_1">
+	
+		<image style="overflow:visible;" width="7776" height="4131" xlink:href="../map_pngs/10x/Asset 1@10x-100.jpg"  transform="matrix(0.1 0 0 0.1 229.1 99.15)">
+	</image>
+	<g id="Border_x5F_Diploma">
+		<path class="st1" d="M478.3,336.1L416.1,372 M416.2,372L354,336.1 M416.2,300.2l31.1,17.9 M354,336.1l31.1-17.9 M385.1,318.1
+			l31.1-17.9 M447.2,318.1l3.1,1.8 M450.4,319.9l2.5,1.5 M452.9,321.4l25.4,14.7"/>
+		<g id="Layer_14_1_">
+			<polygon class="st1" points="354,336.1 416.2,300.2 478.3,336.1 416.2,372 			"/>
+		</g>
+	</g>
+	<g id="Border_x5F_BSc_1">
+		<path class="st1" d="M509.4,425.8l-62.2,35.9 M447.2,461.7l-62.1-35.9 M481.4,409.7l-34.2-19.8 M385.1,425.8l22.6-13.1
+			 M407.7,412.8l2.3-1.3 M409.9,411.4l3.1-1.8 M506.3,424l3.1,1.8 M413.1,409.7l6.2-3.6 M500.1,420.4l6.2,3.6 M419.3,406.1l6.2-3.6
+			 M493.9,416.8l6.2,3.6 M425.5,402.5l6.2-3.6 M481.4,409.7l6.2,3.6 M487.6,413.2l6.2,3.6 M431.7,398.9l6.2-3.6 M437.9,395.3
+			l6.2-3.6 M444.1,391.7l3.1-1.8"/>
+		<polygon class="st1" points="385.1,425.8 447.2,389.9 509.4,425.8 447.2,461.7 		"/>
+	</g>
+	<g id="Border_x5F_BSc_2">
+		<path class="st1" d="M509.4,354l62.2-35.9 M571.6,318.1l62.2,35.9 M633.7,354l-62.1,35.9 M571.6,389.9L509.4,354"/>
+		<polygon class="st1" points="509.4,354 571.6,318.1 633.7,354 571.6,389.9 		"/>
+	</g>
+	<g id="Border_x5F_BSc_3_Conservation">
+		<path class="st1" d="M664.8,160.2l-62.2,35.9 M602.6,196.1l-62.2-35.9 M540.5,160.2l62.2-35.9 M602.6,124.4l62.2,35.9"/>
+		<polygon class="st1" points="540.5,160.2 602.6,124.4 664.8,160.2 602.6,196.1 		"/>
+	</g>
+	<g id="Border_x5F_BSc_3_Design">
+		<path class="st1" d="M668.2,266l-34.5,19.9 M633.7,285.8l-62.2-35.9 M667.9,233.8l26.6,15.3 M694.5,249.1l-26.3,15.2 M571.6,250
+			l53.7-31 M625.2,219l2.3-1.3 M627.5,217.7l3.1-1.8 M630.6,215.9l3.1-1.8 M661.7,230.2l6.2,3.6 M668.2,266v-1.6 M655.5,226.6
+			l6.2,3.6 M649.3,223l6.2,3.6 M643,219.5l6.2,3.6 M633.7,214.1l3.1,1.8 M636.8,215.9l6.2,3.6"/>
+		<polygon class="st1" points="571.6,250 633.7,214.1 694.5,249.1 668.2,264.3 668.2,266 633.7,285.8 		"/>
+	</g>
+	<g id="Border_x5F_BSc_3_Urban">
+		<path class="st1" d="M913.4,375.6l-62.2,35.9 M851.3,411.4l-62.2-35.8 M789.1,375.6l53.7-31 M842.8,344.6l2.3-1.3 M891.7,363
+			l6.2,3.6 M897.9,366.6l6.2,3.6 M845.1,343.3l3.1-1.8 M848.2,341.5l3.1-1.8 M885.5,359.4l6.2,3.6 M904.1,370.2l6.2,3.6
+			 M910.3,373.8l3.1,1.8 M851.3,339.7l3.1,1.8 M854.4,341.5l31.1,17.9"/>
+		<polygon class="st1" points="789.1,375.6 851.3,339.7 913.4,375.6 851.3,411.4 		"/>
+	</g>
+	<g id="Border_x5F_BSc_3_Structures">
+		<path class="st1" d="M913.4,267.9l62.2,35.9 M975.6,303.8l-62.2,35.9 M913.4,339.7l-62.2-35.9 M851.3,303.8l62.2-35.9"/>
+		<polygon class="st1" points="851.3,303.8 913.4,267.9 975.6,303.8 913.4,339.7 		"/>
+	</g>
+</g>
+</svg>
