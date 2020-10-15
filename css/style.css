@@ -12,6 +12,15 @@ body.fade-out {
     transition: none;
 }
 
+.nav-link {
+    padding-top: 20px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: black;
+}
+
 
 /* The emerging W3C standard
    that is currently Firefox-only */
