@@ -3,6 +3,10 @@
     width: 700px !important;
 }
 
+.heading1 {
+    padding-left: 20px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -15,6 +19,9 @@
 @media only screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
+    }
+    h1 {
+        font-size: 20pt;
     }
 }
 

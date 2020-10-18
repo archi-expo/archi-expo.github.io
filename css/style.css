@@ -68,11 +68,11 @@ li {
 }
 
 .tooltip-inner {
-    background-color: white !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-    color: black !important;
-    font-size: 18px !important;
-    z-index: 2 !important;
+    background-color: white;
+    font-family: Helvetica;
+    color: black;
+    font-size: 18px;
+    z-index: 2;
 }
 
 .fixed-div {
@@ -127,16 +127,20 @@ li {
     padding: 16px;
 }
 
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://img.icons8.com/ios/50/000000/long-arrow-down.png');
+}
+
 
 /* smartphones, touchscreens */
 
 @media (hover: none) and (pointer: coarse) {
     .tooltip-inner {
-        background-color: white !important;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-        color: black !important;
-        font-size: 11px !important;
-        z-index: 2 !important;
+        background-color: white;
+        font-family: Helvetica;
+        color: black;
+        font-size: 11px;
+        z-index: 2;
     }
 }
 
@@ -161,12 +165,9 @@ li {
         padding-bottom: 50px;
         padding-top: 20px;
     }
-    h1 {
-        font-size: 20pt;
-    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 600px) {
     svg {
         transform: scale(1.3);
         padding-bottom: 50px;
@@ -182,20 +183,14 @@ li {
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {
-    ...
-}
+@media only screen and (min-width: 768px) {}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {
-    ...
-}
+@media only screen and (min-width: 992px) {}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {
-    ...
-}
+@media only screen and (min-width: 1200px) {}
