@@ -22,6 +22,11 @@
     animation-timing-function: linear;
 }
 
+.maps {
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+}
+
 @keyframes bounce-1 {
     0% {
         transform: translateY(0);
@@ -48,10 +53,18 @@
     h1 {
         font-size: 20pt;
     }
+    .maps {
+        overflow-x: hidden;
+        -webkit-overflow-x: hidden;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     body {
+        overflow-x: hidden;
+        -webkit-overflow-x: hidden;
+    }
+    .maps {
         overflow-x: hidden;
         -webkit-overflow-x: hidden;
     }
