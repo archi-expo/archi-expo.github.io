@@ -1,0 +1,130 @@
+.square {
+    width: 600px;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-desc {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+body {}
+
+.a1 {
+    padding-top: 50px;
+}
+
+.a2 {
+    padding-top: 50px;
+}
+
+.b1 {
+    width: 500px;
+}
+
+.project {
+    padding: 50px;
+}
+
+.project:hover .square {
+    opacity: 0.3;
+}
+
+.project:hover .project-desc {
+    opacity: 1;
+}
+
+.project:hover .project-text {
+    color: black;
+}
+
+.project:hover .project-desc .student-name {
+    opacity: 1;
+    color: black;
+}
+
+.project-text {
+    font-size: 35pt;
+    color: #E4F0F7;
+}
+
+.p2 {
+    font-size: 25pt;
+}
+
+.student-name {
+    font-size: 25pt;
+    opacity: 0;
+}
+
+.p1 {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* smartphones, touchscreens */
+
+@media (hover: none) and (pointer: coarse) {
+    .student-name {
+        display: contents;
+        color: black;
+        padding: 20px;
+    }
+    .project-text {
+        display: contents;
+        font-size: 17pt;
+        color: black;
+    }
+    p {
+        font-size: 15pt;
+    }
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .project {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}

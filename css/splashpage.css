@@ -1,5 +1,6 @@
-.a1 {
-    width: 600px;
+body {
+    background-image: url(../images/splash_page.png);
+    background-position: 50% 50%;
 }
 
 .buttons {

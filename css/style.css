@@ -21,6 +21,15 @@ body.fade-out {
     background-color: black !important;
 }
 
+.dropdown-menu {
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    border: 0px solid black;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
 
 /* The emerging W3C standard
    that is currently Firefox-only */
@@ -52,12 +61,16 @@ p {
     line-height: 170%;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     font-size: 14pt;
 }
 
 h5 {
-    font-size: 11pt !important;
+    font-size: 9pt;
     color: black;
     align-self: center;
 }
@@ -188,7 +201,20 @@ li {
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
