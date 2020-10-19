@@ -1,6 +1,6 @@
-.body {
+html,
+body {
     overflow-x: hidden;
-    -webkit-overflow-x: hidden;
 }
 
 .container-1 {
@@ -22,9 +22,9 @@
     animation-timing-function: linear;
 }
 
-.maps {
+.noscrollx {
     overflow-x: hidden;
-    -webkit-overflow-x: hidden;
+    position: relative;
 }
 
 @keyframes bounce-1 {
@@ -46,26 +46,9 @@
     .container-1 {
         display: inline;
     }
-    .body {
-        overflow-x: hidden;
-        -webkit-overflow-x: hidden;
-    }
     h1 {
         font-size: 20pt;
     }
-    .maps {
-        overflow-x: hidden;
-        -webkit-overflow-x: hidden;
-    }
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-        -webkit-overflow-x: hidden;
-    }
-    .maps {
-        overflow-x: hidden;
-        -webkit-overflow-x: hidden;
-    }
-}
+@media only screen and (max-width: 768px) {}
