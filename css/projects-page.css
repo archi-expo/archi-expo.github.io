@@ -85,11 +85,11 @@ body {}
     }
     .project-text {
         display: contents;
-        font-size: 17pt;
+        font-size: 10pt;
         color: black;
     }
     p {
-        font-size: 15pt;
+        font-size: 10pt;
     }
 }
 
