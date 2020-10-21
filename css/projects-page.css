@@ -27,16 +27,36 @@
     padding-top: 50px;
 }
 
-.b1 {
-    width: 500px;
+.b2 {
+    padding-left: 30px;
+    max-height: 200px;
+    padding-bottom: 20px;
+}
+
+.b3 {
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+h2 {
+    font-size: 12pt;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sticky-top {
+    z-index: 0;
 }
 
 .project {
-    padding: 50px;
+    padding: 30px;
 }
 
 .project:hover .square {
     opacity: 0.3;
+    transition: opacity 0.5s;
 }
 
 .project:hover .project-desc {
@@ -50,26 +70,27 @@
 .project:hover .project-desc .student-name {
     opacity: 1;
     color: black;
+    transition: opacity 0.5s;
 }
 
 .project-text {
-    font-size: 35pt;
+    font-size: 27pt;
     color: #E4F0F7;
+    padding: 0px;
+    margin: 0px;
 }
 
 .p2 {
-    font-size: 25pt;
+    font-size: 15pt;
+}
+
+.p-2 {
+    padding: 0px !important;
+    margin: 0px;
 }
 
 .student-name {
-    font-size: 25pt;
     opacity: 0;
-}
-
-.p1 {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 
@@ -113,9 +134,13 @@
 @media only screen and (min-width: 600px) {}
 
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and down) */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .b2 {
+        display: none;
+    }
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
