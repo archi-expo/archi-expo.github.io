@@ -6,21 +6,84 @@
 }
 
 .container-1 {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
 }
 
 .square {
     padding: 5px;
+    transition: all .2s ease-in-out;
 }
 
 .main-image {
     padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.main-image:hover {
+    opacity: 50%;
+    transform: scale(0.97);
 }
 
 .square:hover {
     opacity: 50%;
+    transform: scale(0.97);
 }
 
 .project-text {
     padding: 20px;
 }
+
+.back-arrow {
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-width: 450px) {
+    .project-text {
+        padding: 0px;
+    }
+    p {
+        text-justify: all;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 992px) {
+    .right-cell {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
