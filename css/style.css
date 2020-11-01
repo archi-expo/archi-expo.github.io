@@ -145,6 +145,21 @@ li {
     background-image: url('https://img.icons8.com/ios/50/000000/long-arrow-down.png');
 }
 
+.icon {
+    opacity: 50%;
+}
+
+.icon:hover {
+    opacity: 100%;
+}
+
+.footer-bottom {
+    padding-bottom: 50px;
+    margin-top: 150px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 50px;
+}
+
 
 /* smartphones, touchscreens */
 
