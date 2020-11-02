@@ -160,6 +160,11 @@ li {
     padding-top: 50px;
 }
 
+.footer-bottom img {
+    width: auto;
+    height: 50px;
+}
+
 
 /* smartphones, touchscreens */
 
@@ -194,12 +199,15 @@ li {
         padding-bottom: 50px;
         padding-top: 20px;
     }
-
     .footer-bottom {
         padding-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 20px;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding-top: 25px;
+    }
+    .footer-bottom img {
+        width: auto;
+        height: 30px;
     }
 }
 
