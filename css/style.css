@@ -26,7 +26,7 @@ body.fade-out {
     margin: 0;
     list-style: none;
     white-space: nowrap;
-    border: 0px solid black;
+    border: 1px solid black;
     padding: 10px;
     background-color: #ffffff;
 }
@@ -145,6 +145,20 @@ li {
     background-image: url('https://img.icons8.com/ios/50/000000/long-arrow-down.png');
 }
 
+.navbar {
+    justify-content: right;
+}
+
+.navbar-nav {
+    flex-direction: inherit;
+    justify-content: space-evenly;
+}
+
+.navbar-nav .dropdown-menu {
+    position: inherit;
+    float: none;
+}
+
 .icon {
     opacity: 50%;
 }
@@ -163,6 +177,10 @@ li {
 .footer-bottom img {
     width: auto;
     height: 50px;
+}
+
+.navbar-brand {
+    align-self: left;
 }
 
 
@@ -196,14 +214,8 @@ li {
 @media only screen and (max-width: 600px) {
     svg {
         transform: scale(1.5);
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         padding-top: 20px;
-    }
-    .footer-bottom {
-        padding-bottom: 50px;
-        margin-top: 20px;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        padding-top: 25px;
     }
     .footer-bottom img {
         width: auto;
@@ -222,7 +234,14 @@ li {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (max-width: 600px) {}
+
+.footer-bottom {
+    padding-bottom: 50px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 25px;
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
