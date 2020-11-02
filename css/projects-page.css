@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .square {
     width: 600px;
     object-fit: cover;
@@ -17,6 +31,12 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+}
+
+h1 {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    font-weight: bold;
 }
 
 .a1 {
@@ -41,6 +61,8 @@
 }
 
 h2 {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
     font-size: 9pt;
     padding-bottom: 15px;
     margin: 0px;
@@ -74,13 +96,17 @@ h2 {
 }
 
 .project-text {
-    font-size: 27pt;
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    font-size: 24pt;
     color: #E4F0F7;
     padding: 0px;
     margin: 0px;
 }
 
 .p2 {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
     font-size: 15pt;
     font-weight: bold;
 }

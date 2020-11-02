@@ -1,3 +1,40 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35pt;
+}
+
+h2 {
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p {
+    font-family: 'latoregular';
+    src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .right-cell {
     height: 800px;
     overflow: auto;
@@ -37,10 +74,6 @@
 
 .back-arrow {
     padding-bottom: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 
