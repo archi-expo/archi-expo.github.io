@@ -150,7 +150,7 @@ li {
 }
 
 .navbar-nav {
-    flex-direction: inherit;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
