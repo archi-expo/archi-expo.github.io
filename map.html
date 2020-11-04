@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/mine.js"></script>
+
 </head>
 
 <body>
@@ -330,24 +330,6 @@
 
     </div>
 
-    <footer>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col footer-social d-flex justify-content-center">
-                        <a class="icon" href="https://www.um.edu.mt" target="_blank"> <img src="images/UMLOGO_blackRGB.png" alt="">
-                        </a>
-                        <a class="icon" href="https://www.um.edu.mt/ben" target="_blank"> <img src="images/BEN_Black Logo.png" alt="">
-                        </a>
-                        <a class="icon" href="http://sacesmalta.com" target="_blank"> <img src="images/saces_logo.png" alt="">
-                        </a>
-                        <a class="icon" href="https://www.facebook.com/sacesonline" target="_blank"> <img src="images/facebook-app-symbol.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
@@ -355,6 +337,18 @@
     <script>
         $(document).ready(function() {
             checkMobile();
+
+            $(".collapse").on('show.bs.collapse', function() {
+                $('[data-toggle="tooltip"]').tooltip({
+                    trigger: 'manual'
+                }).tooltip('hide');
+            });
+
+            $(".collapse").on('hidden.bs.collapse', function() {
+                $('[data-toggle="tooltip"]').tooltip({
+                    trigger: 'manual'
+                }).tooltip('show');
+            });
         });
 
         var checkMobile = function() {
