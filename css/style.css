@@ -36,6 +36,10 @@
             text-align: right;
         }
         
+        .c1 {
+            margin-top: 50%;
+        }
+        
         .dropdown .dropdown-menu {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
