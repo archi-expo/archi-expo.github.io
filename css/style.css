@@ -11,10 +11,11 @@
         }
         
         @font-face {
-            font-family: 'karlaregular';
-            src: url('karla-regular-webfont.woff2') format('woff2'), url('karla-regular-webfont.woff') format('woff');
+            font-family: 'Cotham Sans';
+            src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
             font-weight: normal;
             font-style: normal;
+            font-display: swap;
         }
         
         body {
@@ -78,6 +79,8 @@
         
         h1 {
             text-align: center;
+            font-family: 'Cotham Sans';
+            src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
         }
         
         h2 {
@@ -88,8 +91,8 @@
             font-size: 9pt;
             color: black;
             align-self: center;
-            font-family: 'latoregular';
-            src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
+            font-family: 'Cotham Sans';
+            src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
         }
         
         li {
@@ -99,7 +102,8 @@
         
         .tooltip-inner {
             background-color: white;
-            font-family: Helvetica;
+            font-family: 'Cotham Sans';
+            src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
             color: black;
             font-size: 18px;
             z-index: 2;
@@ -128,7 +132,7 @@
             left: 0;
             background-color: white;
             overflow-x: hidden;
-            transition: 0.5s;
+            transition: 0.5s ease;
             padding-top: 60px;
         }
         
@@ -138,7 +142,7 @@
             font-size: 25px;
             color: #818181;
             display: block;
-            transition: 0.3s;
+            transition: right 0.5s ease;
         }
         
         .sidebar a:hover {
@@ -207,7 +211,8 @@
         @media (hover: none) and (pointer: coarse) {
             .tooltip-inner {
                 background-color: white;
-                font-family: Helvetica;
+                font-family: 'Cotham Sans';
+                src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
                 color: black;
                 font-size: 11px;
                 z-index: 2;
