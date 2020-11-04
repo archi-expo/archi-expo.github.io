@@ -52,7 +52,7 @@ h1 {
 }
 
 .a2 {
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .b2 {
@@ -66,6 +66,7 @@ h1 {
     border-top: none;
     border-bottom: none;
     border-right: none;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -100,7 +101,7 @@ h2 {
 .project:hover .project-desc .student-name {
     opacity: 1;
     color: black;
-    transition: opacity 0.5s;
+    transition: color 0.3s;
 }
 
 .project-text {
@@ -116,7 +117,7 @@ h2 {
     font-family: 'latoregular';
     src: url('lato-regular-webfont.woff2') format('woff2'), url('lato-regular-webfont.woff') format('woff');
     font-size: 15pt;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 .p-2 {

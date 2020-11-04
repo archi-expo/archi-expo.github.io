@@ -32,6 +32,28 @@
             transition: none;
         }
         
+        .nav-item {
+            text-align: right;
+        }
+        
+        .dropdown .dropdown-menu {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            max-height: 0px;
+            display: block;
+            overflow: hidden;
+            opacity: 0;
+        }
+        
+        .dropdown.show .dropdown-menu {
+            /* For Bootstrap 4, use .dropdown.show instead of .dropdown.open */
+            max-height: 300px;
+            opacity: 1;
+        }
+        
         .dropdown-item.active {
             background-color: black !important;
         }
@@ -93,6 +115,8 @@
             align-self: center;
             font-family: 'Cotham Sans';
             src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
+            margin: 0px;
+            width: 300px;
         }
         
         li {
@@ -133,6 +157,9 @@
             background-color: white;
             overflow-x: hidden;
             transition: 0.5s ease;
+            -webkit-transition: 0.5s ease-out;
+            -moz-transition: 0.5s ease;
+            -o-transition: 0.5s ease;
             padding-top: 60px;
         }
         
@@ -142,7 +169,10 @@
             font-size: 25px;
             color: #818181;
             display: block;
-            transition: right 0.5s ease;
+            transition: 0.5s ease;
+            -webkit-transition: 0.5s ease-in;
+            -moz-transition: 0.5s ease;
+            -o-transition: 0.5s ease;
         }
         
         .sidebar a:hover {
@@ -204,7 +234,11 @@
         }
         
         .navbar-brand {
-            align-self: left;
+            align-self: center;
+        }
+        
+        .navbar-brand img {
+            height: 50px;
         }
         /* smartphones, touchscreens */
         
@@ -227,6 +261,9 @@
             .sidebar a {
                 font-size: 18px;
             }
+            h5 {
+                width: 200px;
+            }
         }
         /* Extra small devices (phones, 600px and down) */
         
@@ -240,6 +277,12 @@
                 width: auto;
                 height: 30px;
             }
+            .footer-bottom {
+                padding-bottom: 50px;
+                margin-top: 10px;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                padding-top: 25px;
+            }
         }
         
         @media only screen and (max-width: 768px) and (min-width: 600px) {
@@ -250,18 +293,13 @@
             }
         }
         /* Small devices (portrait tablets and large phones, 600px and up) */
-        
-        @media only screen and (max-width: 600px) {}
-        
-        .footer-bottom {
-            padding-bottom: 50px;
-            margin-top: 10px;
-            border-top: 1px solid rgba(0, 0, 0, 0.1);
-            padding-top: 25px;
-        }
         /* Medium devices (landscape tablets, 768px and up) */
         
-        @media only screen and (min-width: 768px) {}
+        @media only screen and (min-width: 768px) {
+            h5 {
+                width: 700px;
+            }
+        }
         /* Large devices (laptops/desktops, 992px and up) */
         
         @media only screen and (min-width: 992px) {
@@ -276,6 +314,19 @@
             }
             .navbar .nav-item .dropdown-menu {
                 margin-top: 0;
+            }
+        }
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        
+        @media only screen and (min-width: 960px) {
+            h5 {
+                width: 900px;
+            }
+        }
+        
+        @media only screen and (min-width: 992px) {
+            h5 {
+                width: auto;
             }
         }
         /* Extra large devices (large laptops and desktops, 1200px and up) */

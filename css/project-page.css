@@ -32,7 +32,7 @@ h2 {
     font-family: 'Cotham Sans';
     src: url('CothamSans.woff2') format('woff2'), url('CothamSans.woff') format('woff');
     text-align: center;
-    font-weight: bold;
+    font-weight: lighter;
     font-style: normal;
 }
 
