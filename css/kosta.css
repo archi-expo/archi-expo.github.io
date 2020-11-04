@@ -29,6 +29,21 @@
     z-index: 1000;
 }
 
+.sponsor {
+    width: 200px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.sponsor:hover {
+    opacity: 1;
+    transition: 0.3s opacity ease;
+}
+
+.b1 {
+    padding-top: 50px;
+}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
