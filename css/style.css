@@ -40,6 +40,10 @@
             margin-top: 50%;
         }
         
+        .dropdown-menu a {
+            font-family: 'Cotham Sans';
+        }
+        
         .dropdown .dropdown-menu {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -71,7 +75,7 @@
             margin: 0;
             list-style: none;
             white-space: nowrap;
-            border: 1px solid black;
+            border: 0px solid black;
             padding: 10px;
             background-color: #ffffff;
         }
@@ -189,6 +193,10 @@
             right: 25px;
             font-size: 36px;
             margin-left: 50px;
+            z-index: 3;
+            font-family: Helvetica;
+            font-weight: 100;
+            color: black;
         }
         
         #main {
@@ -335,4 +343,8 @@
         }
         /* Extra large devices (large laptops and desktops, 1200px and up) */
         
-        @media only screen and (min-width: 1200px) {}
+        @media only screen and (max-width: 992px) {
+            h5 {
+                font-size: 11pt;
+            }
+        }
