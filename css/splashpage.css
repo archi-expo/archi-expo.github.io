@@ -28,6 +28,10 @@ body {
     height: 100vh;
 }
 
+p {
+    text-align: justify;
+}
+
 .btn {
     letter-spacing: 0.1em;
     cursor: pointer;
