@@ -87,6 +87,7 @@ p {
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
+    background-color: white;
 }
 
 .effect04::before,
