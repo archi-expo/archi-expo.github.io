@@ -1,6 +1,15 @@
 body {
     background-image: url(../images/splash_page.png);
-    background-position: 50% 50%;
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
 }
 
 .html {
@@ -32,6 +41,24 @@ p {
     text-align: justify;
 }
 
+.linear-wipe {
+    text-align: center;
+    background: linear-gradient(to right, #E4F0F7 20%, #282F33 40%, #282F33 60%, #E4F0F7 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
 .btn {
     letter-spacing: 0.1em;
     cursor: pointer;
@@ -55,8 +82,8 @@ p {
 .effect04 {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
     display: var(--uismLinkDisplay);
-    color: #000;
-    outline: solid 2px #000;
+    color: #282F33;
+    outline: solid 2px #282F33;
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
